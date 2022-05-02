@@ -1,19 +1,12 @@
 import  Navbar  from '../components/Navbar';
 import styled from 'styled-components'
+import Customizedbutton from '../components/Button'
 
 
 const LorenDiv = styled.h1`
    color: red;
    font-size: 15px;
    `
-const Button = styled.button`
-  font-size: 70px;
-  margin: 50px;
-  padding: 0.25em 1em;
-  border-radius: 3px;
-  background-color: #FFFFf;
-  color: black;
- `;
 
 function CadastroLivros() {
 
@@ -32,7 +25,7 @@ function CadastroLivros() {
             Cupiditate quis, aperiam voluptatum nobis, placeat magni dignissimos dicta, iusto iste minima ut?
          </div>
 
-         <Button onClick={() => {alert("fui clicado")}}>Clique em Mim</Button>
+         <Customizedbutton />
       </div>
    )
 }

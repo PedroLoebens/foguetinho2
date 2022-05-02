@@ -8,7 +8,7 @@ import ListaLivros from "./routes/listaLivros"
 import CadastroLivros from './routes/cadastroLivros'
 import Home from './routes/home';
 
-
+//utilizanndo React Router Dom v6
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
